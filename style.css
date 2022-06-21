@@ -59,7 +59,7 @@ top: 0;
 }
 
 .background{
-  background: rgba(0, 0, 0, 0.7) url(/img/banner.png);
+  background: rgba(0, 0, 0, 0.7) url(<img src="https://i.ibb.co/7KWcYT5/banner.png" alt="banner" border="0" />);
   background-size: cover;
   background-blend-mode: darken;
 }
