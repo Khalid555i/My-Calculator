@@ -15,36 +15,113 @@
 </head>
 
 <body>
-  <div class="container">
-    <div class="calculator">
-      <input type="text" 
-      placeholder="0" id="output-screen">
-      <button onclick="clr()">CL</button>
-      <button onclick="del()">Del</button>
-      <button onclick="display('%')">%</button>
-      <button onclick="display('/')">/
-      <button onclick="display('7')">7</button></button>
-      <button onclick="display('8')">8</button>
-      <button onclick="display('9')">9</button>
-      <button onclick="display('*')">*</button>
-      <button onclick="display('4')">4</button>
-      <button onclick="display('5')">5</button>
-      <button onclick="display('6')">6</button>
-      <button onclick="display('-')">-</button>
-      <button onclick="display('1')">1</button>
-      <button onclick="display('2')">2</button>
-      <button onclick="display('3')">3</button>
-      <button onclick="display('+')">+</button>
-      <button onclick="display('.')">.</button>
-      <button onclick="display('0')">0</button>
-      <button onclick="calculate()" class="equal">=</button>
-      
+  <nav class="navbar background">
+    <ul class="nav-list">
+      <div class="logo">
+        <img src="/img/logo.jpg" alt="logo">
+        
+      </div>
+      <li><a href="#home"><u>Home</u></a></li>
+     <li><a href="about.html"><u>About</u></a></li>
+     <li><a href="service.html"><u>Services</u></a></li>
+     <li><a href="#contact"><u>Contact Us</u></a></li></ul>
+    <div class="downnav" id="home">
+      <input type="text" name="search" id="search">
+      <button class="btn btn-sm">Search</button>
+    </div>
+  </nav>
+  <section class="background firstSection">
+    <div class="box-main">
+      <div class="firstHalf">
+        <p class="text-big">Mk Khalid Developer</p>
+        <p class="text-small">I am an web developer.This is my own website.I create this websites </p>
+        <div class="buttons">
+          <button class="btn">Subscribe</button>
+          <button class="btn">Watch Video</button>
+          
+        </div>
+      </div>
+      <div class="secondHalf">
+        <img src="/img/banner2.jpg" alt="building">
+      </div>
       
     </div>
-  </div><br><br>
-<marquee>My name is MK Khalid Mahamud</marquee><br><br>
-  <p>This is created By Developer MK Khalid</p><br><br>
-<img src="https://i.ibb.co/zhscMLG/img.jpg" alt="mk.khalid" border="0" height="100px" width="200px">
-  <script src="main.js"></script>
+    
+ </section><br><br>
+ 
+ 
+  <section class="secRight">
+    <p class="sectionTag text-big"><b><i>The primary elements of a website
+</i></b></p>
+   
+<p class="sectionSubTag">
+Whether you’re creating a blog or an online store, all websites have three main features: the website design and interface, web hosting and a domain name. Since each of these components can independently contribute to the total website cost, it’s important to understand the specifics of each one. </p>
+<div class="thumbnail">
+  <img src="/img/laptop2.jpeg" alt="laptop" class="imgFluid">
+</div>
+  </section><br><br>
+    <section class="secRight">
+    <p class="sectionTag text-big"><b><i>Website design & interface</i></b></p>
+    <p class="sectionSubTag">
+Arguably the most essential part of any website is design. A site’s visual content, including text, imagery and layout, are what visitors see and interact with when they first arrive at your homepage. Much like any first impression, a website’s design can have a huge impact on how visitors feel about your product or service. A successful interface will enable your visitors to fluidly navigate your site and provide them with an all-around positive user experience.
+
+</p>
+<div class="thumbnail">
+  <img src="/img/laptop1.jpeg" alt="laptop image" class="imgFluid">
+</div>
+  </section><br><br>
+    <section class="secRight">
+    <p class="sectionTag text-big"><b><i>Web hosting
+</i></b></p>
+    <p class="sectionSubTag">
+Web hosting allows your site to go live online. To be visible on the internet, websites need to be hosted on a server, which stores the information on your site so that it appears on visitors’ screen.You can either choose a website provider with built in hosting, like Wix, or acquire the two services separately. </p>
+<div class="thumbnail">
+  <img src="/img/laptop3.jpeg" alt="laptop image" class="imgFluid">
+</div>
+  </section><br><br><br>
+  <section class="secRight">
+    <p class="sectionTag text-big"><b><i>Domain name
+
+</i></b></p>
+    <p class="sectionSubTag">
+Just as you need an address to arrive at a physical location, you also need an address to arrive at a website. A web address is called a domain name, and a successful one will make your website easily identifiable, professional and stand out. Your domain name helps solidify your brand identity and provides visitors with a sense of reliability and dependability.</p>
+<div class="thumbnail">
+  <img src="/img/laptop4.jpeg" alt="laptop image" class="imgFluid">
+</div>
+  </section><br><br><br>
+  <section class="secRight">
+    <p class="sectionTag text-big"><b><i>Design portfolio
+
+</i></b></p>
+    <p class="sectionSubTag">
+A portfolio website is essential for any creative professional to showcase their work, including graphic designers, UX designers and architects. Because portfolio websites mainly constitute images, videos and text, you’ll likely need a good amount of website storage. For example, an $18.00 per month plan gets you 10 GB of storage and enables you to keep an hour of video on your site.</p>
+<div class="thumbnail">
+  <img src="/img/laptop5.jpeg" alt="laptop image" class="imgFluid">
+</div>
+  </section><br><br><br>
+  <section class="secRight">
+    <p class="sectionTag text-big"><b><i>Additional website costs 
+
+</i></b></p>
+    <p class="sectionSubTag">
+Once you’ve designed your site, you may want to incorporate additional features to enhance the experience. Here are some additional website costs to consider.</p>
+<div class="thumbnail">
+  <img src="/img/laptop6.jpeg" alt="laptop image" class="imgFluid">
+</div>
+  </section><br><br><br>
+  <section class="contact" id="contact">
+    <h2 class="text-center">Contact Us</h2>
+    <div class="form">
+      <input type="text" name="Name" placeholder="Enter Your name" id="name"><br><br>
+      <input type="text" name="Name" placeholder="Enter Your E-mail" id="name"><br><br>
+      <input type="text" name="Name" placeholder="Enter YourPhone" id="name"><br><br>
+      <textarea name="Name" placeholder="Write Some About Here...." id="text" cols="30" rows="10"><br>
+      <button class="btn btn-sm btn-1">Submit</button>
+    </div>
+     <br>
+  </section>
+  <footer class="background">
+    <p class="text-footer">Copyright &copy; 2023 Mk Khalid - All rights reserved </p>
+  </footer>
 </body>
 </html>
